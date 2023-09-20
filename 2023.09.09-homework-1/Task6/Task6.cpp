@@ -1,12 +1,13 @@
 ﻿#include <iostream>
 
-using namespace std;
-
 int main()
 {
-    int a, b;
-    cin >> a >> b;
+    int a = 0;
+    int b = 0;
+    std::cin >> a;
+    std::cin >> b;
     int c = a > b;
     int d = a <= b;
-    cout << a * c + b * d;
+    std::cout << a * c + b * d << std::endl;
+    return 0;
 }

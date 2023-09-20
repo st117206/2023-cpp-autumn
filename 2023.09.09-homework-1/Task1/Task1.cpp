@@ -1,11 +1,11 @@
 ﻿#include <iostream>
 
-using namespace std;
-
 int main()
 {
-    int A, B;
-    cin >> A >> B;
-    cout << A + B;
+    int a = 0;
+    int b = 0;
+    std::cin >> a;
+    std::cin >> b;
+    std::cout << a + b << std::endl;
     return 0;
 }
